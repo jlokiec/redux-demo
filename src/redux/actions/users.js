@@ -17,10 +17,10 @@ const fetchUsersError = (error) => {
     }
 }
 
-const fetchUsersSuccess = (posts) => {
+const fetchUsersSuccess = (users) => {
     return {
         type: FETCH_USERS_SUCCESS,
-        payload: posts
+        payload: users
     }
 }
 
